@@ -505,6 +505,7 @@ def get_node_bin_url(version):
         'AMD64':  'x64',  # Windows Server 2012 R2 (x64)
         'armv6l': 'armv6l',     # arm
         'armv7l': 'armv7l',
+        'armv8l': 'armv7l', # temporary mapping for Resin's build servers
         'aarch64': 'arm64',
     }
     sysinfo = {
